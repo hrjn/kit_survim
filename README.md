@@ -1,6 +1,6 @@
 # Kit de survi(m)
 
-![xkcd_comic](xkcd_378.png)
+![xkcd_comic](img/xkcd_378.png)
 
 *Credits:* [http://www.xkcd.com/378/](http://www.xkcd.com/378/)
 
