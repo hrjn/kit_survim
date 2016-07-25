@@ -33,3 +33,18 @@ Ci-dessous quelques commandes utiles pour s'y retrouver dans vi(m). Cette liste 
 | --- | :---: |
 | Annuler | `u` |
 | Récupérer ligne enitère | `U` |
+
+### Copier-coller
+| Action | Commande |
+| --- | :---: |
+| Couper ligne courante | `dd` |
+| Coller ligne coupée sous le curseur | `p` |
+
+### Remplacer
+| Action | Commande |
+| --- | :---: |
+| Remplacer le caractère courant par *c* | `r<c>` |
+| Remplacer reste du mot par *s* | `ce<s>` |
+
+
+
