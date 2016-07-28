@@ -13,6 +13,16 @@ Notations:
 * *c* désigne un caractère
 * *s* désigne une chaîne de caractères
 
+
+### Ouverture/fermeture/enregistrement
+| Action | Commande |
+| --- | :---: |
+| Ouvrir le fichier *file* | `:o <file> `|
+| Enregistrer les modifications dans le fichier *file* | `:w <file>` |
+| Fermer et quitter le fichier courant | `:q` |
+| Fermer et quitter sans enregistrer | `:q!` |
+
+
 ### Déplacement
 
 | Action | Commande |
@@ -44,13 +54,14 @@ Notations:
 | Annuler | `u` |
 | Récupérer ligne enitère | `U` |
 
-### Couper/Copier-coller
+### Couper/Copier-coller/Insérer
 
 | Action | Commande |
 | --- | :---: |
 | Copier ligne courante | `yy` |
 | Couper ligne courante | `dd` |
 | Coller ligne coupée sous le curseur | `p` |
+| Insérer le contenu di fichier *file* après le curseur | `:r <file>` |
 
 ### Rechercher
 
@@ -60,8 +71,6 @@ Notations:
 | Suivant | `n` |
 | Précédent | `N` |
 | Aller à la parenthèse fermante (ou ouvrante) associée | `%` |
-
-
 
 
 ### Remplacer
@@ -75,6 +84,7 @@ Notations:
 | Remplacer *s1* par *s2* (avec demande systématique de confirmation) | `s/<s1>/<s2>/gc` |
 | Remplacer *s1* par *s2* entre les lignes *n1* et *n2* | `<n1>,<n2>s/<s1>/<s2>/g` |
 
+
 ### Position et état du fichier
 
 | Action | Commande |
@@ -82,3 +92,13 @@ Notations:
 | Afficher position et état | `Ctrl+G` |
 
 
+### Exécution de commandes externes
+| Action | Commande |
+| --- | :---: |
+| Lancer la commande *cmd* | `:!<cmd>` |
+
+### Sélection de texte
+| Action | Commande |
+| --- | :---: |
+| Passer en mode "visuel" et sélectionner le contenu derrière le curseur | `v` (+dépl. curseur) |
+ 
